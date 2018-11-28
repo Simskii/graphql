@@ -1,8 +1,7 @@
 {
   "name": "@nestjs/graphql",
   "version": "5.4.0",
-  "description":
-    "Nest - modern, fast, powerful node.js web framework (@graphql)",
+  "description": "Nest - modern, fast, powerful node.js web framework (@graphql)",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
   "scripts": {
@@ -40,6 +39,9 @@
     "reflect-metadata": "^0.1.12"
   },
   "lint-staged": {
-    "*.ts": ["prettier --write", "git add"]
+    "*.ts": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
